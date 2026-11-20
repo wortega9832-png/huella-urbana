@@ -1,22 +1,122 @@
-
-body {background-color: #8FBFFA;}
-        
-header {background-color: rgb(181, 53, 79);}
-
-p { font: size 20px;}
-
-#eslogan{
-    color:rgb(20, 220, 137);
-    font-size: 30pt;
-
+:root{
+    --verde: #09c846;
+    --naranja:#f68a2b;
+    --cielo:#d8d8f2;
+    --azul:#260fbc;
+    --blanco:#ffffff;
 }
-.parrafo{
-    background-color: rgb(0, 255, 42);
+
+
+
+
+
+
+
+body {
+    background-color: var(--cielo);
+    color: var(--azul);
+    margin:auto;
+}
+        
+header {
+    background-color: var(--verde);
+    display: flexbox;
+    align-items: ;
+}
+
+header img{
+    width: 300px;
+    height: 200px;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a{
+    color:var(--blanco);
+    text-decoration-line: none;
+     font-family: "Agrave Pro", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18pt;
 }
 
 img{
-    width: 300px;
-    height: 300px;
+    max-width: 100%;
+}
+
+#inicio{
+    text-align: center;
+}
+
+#inicio img{
+    width: 500px;
+    height: 600px;
+    border-radius: 30px;
+}
+
+h1,h2,h3{
+    color:var(--verde);
+    font-family: "Agrave Pro", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20pt;
+}
+
+#titulo{
+    font-size:4ren;
+}
+
+article{
+    background-color: var(--blanco);
+    padding: 20px 100px;
+    margin: 30px;
+    border: 2px solid var(--verde);
+    border-radius: 15px;
+}
+
+article img{
+    border-radius:15px;
+    height: 500px;
+}
+
+ .boton{
+    display: inline-block;
+    background-color: var(--naranja);
+    color:var(--azul);
+    padding: 12px 28px;
+    margin: 20px 0; 
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: "Agrave Pro", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18pt;
+ }
+
+ .boton:hover{
+    background-color: var(--cielo);
+    color: var(--verde);
+ }
+
+
+
+
+
+
+#servicios article img{
+    width: 500px;
+    height: 500px;
 
 }
 

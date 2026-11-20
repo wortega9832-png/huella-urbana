@@ -5,28 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Huella Urbana</title>
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agrave+Pro:wght@100..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <img src="imagenes/logo.png"  alt="logo de huella hurbana">
         <nav>
             <ul>
-                <li><a href="#inicio">inicio</a></li>
-                <li><a href="#servicios">servicios</a></li>
-                <li><a href="#planes">planes</a></li>
-                <li><a href="#paseadores">paseadores</a></li>
-                <li><a href="#contacto">contacto</a></li>
+                <li><a href="#inicio" class="boton">inicio</a></li>
+                <li><a href="#servicios" class="boton">servicios</a></li>
+                <li><a href="#planes" class="boton">planes</a></li>
+                <li><a href="#paseadores" class="boton">paseadores</a></li>
+                <li><a href="#contacto" class="boton">contacto</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="inicio">  
-            <h1>Huella Urbana</h1>
+            <h1 id="titulo">Huella Urbana</h1>
             <p>Paseos seguros y felices para tu mascota mientras tu cumples con tu dia</p>
-            <a href="contacto">agenda un paseo</a>
+            <a href="contacto" class="boton">agenda un paseo</a><br>
             <img src="imagenes/principal.jpg" alt="paseo de mascotas">
         </section>
-
+        <section id="video">
+            <iframe width ="919" height="517" src="https://www.youtube.com/embed/rsTLyukvxGU" title="CACHORROS TIERNOS Y BONITOS 🧡 ¡Vídeos de Perros Cachorros! Lunacreciente" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" title="mascotas" allowfullscreen><iframe>" frameborder="0"></iframe>
+        </section>
         <section>
             <article>
                 <img src="imagenes/paseo-individual.jpg" alt="paseo individual">
@@ -64,7 +69,7 @@
                 </ul>
             </article>
 
-        </section id="paseador">
+        <section id="paseador">
         <article>
             <img src="imagenes/paseador-1.jpg" alt="foto laura gomez">
             <h3>juan gomez</h3>
@@ -81,7 +86,20 @@
             <p>Estudiante de veterinaria,Ideal para perros grandes</p>
         </article>
         </section>
+        <section id="contacto">
+            <h2> contactanos</h2>
+            <p>escribenos y agenta el primer paseo para tu mascota</p>
+            <ul>
+            <li><a href="mailto:contacto@huellaurbama.com">contacto@huellaurbana.com</a></li>
+            <li><a href="http://www.istagram.com">instagram</a></li>
+            </ul>
+
+        </section>
 
     </main>
+    <footer>
+        <p>&copy;2026 huella urbana.Todos los derechos reservados.</p>
+        <p>fotos: <a href="http://www.paxels.com" target="_blank">pexels</a> </p>
+    </footer>
 </body>
 </html>
