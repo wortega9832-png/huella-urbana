@@ -1,0 +1,22 @@
+
+body {background-color: #8FBFFA;}
+        
+header {background-color: rgb(181, 53, 79);}
+
+p { font: size 20px;}
+
+#eslogan{
+    color:rgb(20, 220, 137);
+    font-size: 30pt;
+
+}
+.parrafo{
+    background-color: rgb(0, 255, 42);
+}
+
+img{
+    width: 300px;
+    height: 300px;
+
+}
+
